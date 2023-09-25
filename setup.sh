@@ -228,57 +228,6 @@ gg="AM"
 fi
 curl -sS ipv4.icanhazip.com > /etc/myipvps
 echo ""
-echo "=================================================================="  | tee -a log-install.txt
-echo "                                                                  "  | tee -a log-install.txt
-echo " /$$   /$$  /$$$$$$  /$$   /$$  /$$$$$$   /$$$$$$  /$$$$$$$$      "  | tee -a log-install.txt
-echo "| $$  | $$ /$$__  $$| $$  /$$/ /$$__  $$ /$$__  $$| $$_____/      "  | tee -a log-install.txt
-echo "| $$  | $$| $$  \ $$| $$ /$$/ | $$  \ $$| $$  \__/| $$            "  | tee -a log-install.txt
-echo "| $$$$$$$$| $$  | $$| $$$$$/  | $$$$$$$$| $$ /$$$$| $$$$$         "  | tee -a log-install.txt
-echo "| $$__  $$| $$  | $$| $$  $$  | $$__  $$| $$|_  $$| $$__/         "  | tee -a log-install.txt
-echo "| $$  | $$| $$  | $$| $$\  $$ | $$  | $$| $$  \ $$| $$            "  | tee -a log-install.txt
-echo "| $$  | $$|  $$$$$$/| $$ \  $$| $$  | $$|  $$$$$$/| $$$$$$$$      "  | tee -a log-install.txt
-echo "|__/  |__/ \______/ |__/  \__/|__/  |__/ \______/ |________/      "  | tee -a log-install.txt                                                           
-      echo "                                                            "  | tee -a log-install.txt
-      echo "                                                            "  | tee -a log-install.txt
-      echo " /$$       /$$$$$$$$  /$$$$$$  /$$$$$$$$ /$$   /$$ /$$$$$$$ "  | tee -a log-install.txt
-      echo "| $$      | $$_____/ /$$__  $$| $$_____/| $$$ | $$| $$__  $$"  | tee -a log-install.txt
-      echo "| $$      | $$      | $$  \__/| $$      | $$$$| $$| $$  \ $$"  | tee -a log-install.txt
-      echo "| $$      | $$$$$   | $$ /$$$$| $$$$$   | $$ $$ $$| $$  | $$"  | tee -a log-install.txt
-      echo "| $$      | $$__/   | $$|_  $$| $$__/   | $$  $$$$| $$  | $$"  | tee -a log-install.txt
-      echo "| $$      | $$      | $$  \ $$| $$      | $$\  $$$| $$  | $$"  | tee -a log-install.txt
-      echo "| $$$$$$$$| $$$$$$$$|  $$$$$$/| $$$$$$$$| $$ \  $$| $$$$$$$/"  | tee -a log-install.txt
-      echo "|________/|________/ \______/ |________/|__/  \__/|_______/ "  | tee -a log-install.txt
-      echo "                                                            "  | tee -a log-install.txt
-echo "=================================================================="  | tee -a log-install.txt
-echo ""
-echo "   >>> Service & Port"  | tee -a log-install.txt
-echo "   - OpenSSH                  : 22"  | tee -a log-install.txt
-echo "   - SSH Websocket            : 80" | tee -a log-install.txt
-echo "   - SSH SSL Websocket        : 443" | tee -a log-install.txt
-echo "   - Stunnel4                 : 222, 777" | tee -a log-install.txt
-echo "   - Dropbear                 : 109, 143" | tee -a log-install.txt
-echo "   - Badvpn                   : 7100-7900" | tee -a log-install.txt
-echo "   - Nginx                    : 81" | tee -a log-install.txt
-echo "   - Vmess WS TLS             : 443" | tee -a log-install.txt
-echo "   - Vless WS TLS             : 443" | tee -a log-install.txt
-echo "   - Trojan WS TLS            : 443" | tee -a log-install.txt
-echo "   - Shadowsocks WS TLS       : 443" | tee -a log-install.txt
-echo "   - Vmess WS none TLS        : 80" | tee -a log-install.txt
-echo "   - Vless WS none TLS        : 80" | tee -a log-install.txt
-echo "   - Trojan WS none TLS       : 80" | tee -a log-install.txt
-echo "   - Shadowsocks WS none TLS  : 80" | tee -a log-install.txt
-echo "   - Vmess gRPC               : 443" | tee -a log-install.txt
-echo "   - Vless gRPC               : 443" | tee -a log-install.txt
-echo "   - Trojan gRPC              : 443" | tee -a log-install.txt
-echo "   - Shadowsocks gRPC         : 443" | tee -a log-install.txt
-echo ""
-echo "=============================Contact==============================" | tee -a log-install.txt
-echo "----------------------t.me/hokagevpnpremium-----------------------" | tee -a log-install.txt
-echo "==================================================================" | tee -a log-install.txt
-echo "----------------------WHATSAPP:087726917005-----------------------" | tee -a log-install.txt
-echo "==================================================================" | tee -a log-install.txt
-echo -e ""
-echo ""
 echo "" | tee -a log-install.txt
 rm /root/setup.sh >/dev/null 2>&1
 rm /root/ins-xray.sh >/dev/null 2>&1
