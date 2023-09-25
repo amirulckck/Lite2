@@ -156,11 +156,6 @@ clear
 fi
 fi
 
-echo ""
-wget -q https://raw.githubusercontent.com/hokagelegend2023/original/main/dependencies.sh;chmod +x dependencies.sh;./dependencies.sh
-rm dependencies.sh
-clear
-
 yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
 read -rp "Input ur domain : " -e pp
