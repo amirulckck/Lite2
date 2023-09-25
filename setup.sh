@@ -176,7 +176,7 @@ echo -e "$BGreen      Install UDP SLOW DNS         $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/udp-custom/udp.sh && chmod +x udp.sh && ./udp.sh
+wget https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/udp-custom/udp.sh && chmod +x udp.sh && ./udp.sh
 clear
 sleep 0.5
 cat> /root/.profile << END
