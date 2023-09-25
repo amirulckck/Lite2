@@ -321,16 +321,16 @@ netfilter-persistent reload
 # download script
 cd /usr/bin
 # menu
-wget -O menu "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu/menu.sh"
-wget -O m-vmess "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu/m-vmess.sh"
-wget -O m-vless "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu/m-vless.sh"
-wget -O running "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu/running.sh"
-wget -O clearcache "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu/clearcache.sh"
-wget -O m-ssws "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu/m-ssws.sh"
-wget -O m-trojan "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu/m-trojan.sh"
+wget -O menu "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu/menu.sh"
+wget -O m-vmess "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu/m-vmess.sh"
+wget -O m-vless "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu/m-vless.sh"
+wget -O running "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu/running.sh"
+wget -O clearcache "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu/clearcache.sh"
+wget -O m-ssws "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu/m-ssws.sh"
+wget -O m-trojan "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu/m-trojan.sh"
 
 # menu ssh ovpn
-wget -O m-sshovpn "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//m-sshovpn.sh"
+wget -O m-sshovpn "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//m-sshovpn.sh"
 wget -O usernew "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/usernew.sh"
 wget -O trial "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/trial.sh"
 wget -O renew "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/renew.sh"
@@ -346,18 +346,16 @@ wget -O user-lock "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/u
 wget -O user-unlock "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/user-unlock.sh"
 
 # menu system
-wget -O m-system "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//m-system.sh"
-wget -O m-domain "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//m-domain.sh"
+wget -O m-system "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//m-system.sh"
+wget -O m-domain "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//m-domain.sh"
 wget -O add-host "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/add-host.sh"
 wget -O certv2ray "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/xray/certv2ray.sh"
 wget -O speedtest "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/speedtest_cli.py"
-wget -O auto-reboot "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//auto-reboot.sh"
-wget -O restart "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//restart.sh"
-wget -O bw "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//bw.sh"
-wget -O m-tcp "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//tcp.sh"
-wget -O xp "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/xp.sh"
-wget -O sshws "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/ssh/sshws.sh"
-wget -O m-dns "https://github.com/hokagelegend2023/Lite2/blob/main/ssh/menu//m-dns.sh"
+wget -O auto-reboot "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//auto-reboot.sh"
+wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//restart.sh"
+wget -O m-tcp "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//tcp.sh"
+wget -O xp "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/ssh/xp.sh"
+
 
 chmod +x menu
 chmod +x m-vmess
