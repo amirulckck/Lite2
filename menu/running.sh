@@ -195,7 +195,7 @@ kernelku=$(uname -r)
 
 # DNS PATCH
 #tipeos2=$(uname -m)
-Name=$"givpn"
+Name=$(curl -sS https://raw.githubusercontent.com/hokagelegend2023/ijinpremium/main/LiteIp | grep $MYIP | awk '{print $2}')
 Exp=$"Lifetime"
 # GETTING DOMAIN NAME
 Domen="$(cat /etc/xray/domain)"
