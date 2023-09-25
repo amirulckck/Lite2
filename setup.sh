@@ -154,40 +154,6 @@ echo "$pp" > /etc/v2ray/domain
 echo "IP=$pp" > /var/lib/hokagevpn-pro/ipvps.conf
 echo "IP=$pp" > /var/lib/ipvps.conf
 
-#THEME RED
-cat <<EOF>> /etc/hokagevpn/theme/red
-BG : \E[40;1;41m
-TEXT : \033[0;31m
-EOF
-#THEME BLUE
-cat <<EOF>> /etc/hokagevpn/theme/blue
-BG : \E[40;1;44m
-TEXT : \033[0;34m
-EOF
-#THEME GREEN
-cat <<EOF>> /etc/hokagevpn/theme/green
-BG : \E[40;1;42m
-TEXT : \033[0;32m
-EOF
-#THEME YELLOW
-cat <<EOF>> /etc/hokagevpn/theme/yellow
-BG : \E[40;1;43m
-TEXT : \033[0;33m
-EOF
-#THEME MAGENTA
-cat <<EOF>> /etc/hokagevpn/theme/magenta
-BG : \E[40;1;43m
-TEXT : \033[0;33m
-EOF
-#THEME CYAN
-cat <<EOF>> /etc/hokagevpn/theme/cyan
-BG : \E[40;1;46m
-TEXT : \033[0;36m
-EOF
-#THEME CONFIG
-cat <<EOF>> /etc/hokagevpn/theme/color.conf
-blue
-EOF
     
 #install ssh ovpn
 echo -e "\e[33m-----------------------------------\033[0m"
@@ -205,14 +171,6 @@ clear
 wget https://raw.githubusercontent.com/hokagelegend2023/echo/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 wget https://raw.githubusercontent.com/hokagelegend2023/echo/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
-#install BACK UP VPS
-echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen      Install BACKUP VPS        $NC"
-echo -e "\e[33m-----------------------------------\033[0m"
-sleep 0.5
-clear
-wget https://raw.githubusercontent.com/hokagelegend2023/echo/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-clear
 #install ssh UDP SLOW DNS
 echo -e "\e[33m-----------------------------------\033[0m"
 echo -e "$BGreen      Install UDP SLOW DNS         $NC"
@@ -221,13 +179,6 @@ sleep 0.5
 clear
 wget https://raw.githubusercontent.com/hokagelegend2023/vpnpremium/main/udp-custom/udp.sh && chmod +x udp.sh && ./udp.sh
 clear
-#install ssh UDP SLOW DNS
-echo -e "\e[33m-----------------------------------\033[0m"
-echo -e "$BGreen        Install UPDATE             $NC"
-echo -e "\e[33m-----------------------------------\033[0m"
-sleep 0.5
-clear
-wget https://raw.githubusercontent.com/hokagelegend2023/echo/main/update/e-update.sh chmod +x e-update.sh && ./e-update.sh
 sleep 0.5
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
