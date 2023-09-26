@@ -352,7 +352,6 @@ wget -O add-host "https://raw.githubusercontent.com/hokagelegend2023/Lite/main/s
 wget -O certv2ray "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/xray/certv2ray.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//restart.sh"
-wget -O m-tcp "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/menu//tcp.sh"
 wget -O xp "https://raw.githubusercontent.com/hokagelegend2023/Lite2/main/ssh/xp.sh"
 
 
@@ -386,8 +385,6 @@ chmod +x certv2ray
 chmod +x speedtest
 chmod +x auto-reboot
 chmod +x restart
-chmod +x bw
-chmod +x m-tcp
 chmod +x xp
 chmod +x sshws
 chmod +x m-dns
