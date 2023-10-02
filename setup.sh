@@ -153,7 +153,14 @@ echo "$pp" > /etc/v2ray/domain
 echo "IP=$pp" > /var/lib/hokagevpn-pro/ipvps.conf
 echo "IP=$pp" > /var/lib/ipvps.conf
 
-    
+#Install Rubby
+sudo apt install ruby-full
+sleep 0.5
+clear
+ruby --version
+sleep 0.5
+gem install lolcat
+sleep 0.5
 #install ssh ovpn
 echo -e "\e[33m-----------------------------------\033[0m"
 echo -e "$BGreen      Install SSH Websocket           $NC"
