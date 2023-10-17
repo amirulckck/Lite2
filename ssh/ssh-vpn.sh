@@ -382,12 +382,10 @@ chmod +x m-system
 chmod +x m-domain
 chmod +x add-host
 chmod +x certv2ray
-chmod +x speedtest
 chmod +x auto-reboot
 chmod +x restart
 chmod +x xp
 chmod +x sshws
-chmod +x m-dns
 cd
 
 
